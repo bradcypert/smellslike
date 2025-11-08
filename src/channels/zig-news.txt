@@ -1,3 +1,5 @@
 https://ziglang.org/news/index.xml
 // https://www.openmymind.net/atom.xml
 https://tigerbeetle.com/blog/atom.xml
+https://kristoff.it/index.xml
+https://andrewkelley.me/rss.xml
