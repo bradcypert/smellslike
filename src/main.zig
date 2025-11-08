@@ -206,7 +206,7 @@ fn postToDiscord(allocator: std.mem.Allocator, webhook_url: []const u8, title: [
 
     try std.json.Stringify.value(payload, .{}, &json_contents.writer);
 
-    std.debug.print("  Webhook URL: {s}\n", .{webhook_url});
+    // std.debug.print("  Webhook URL: {s}\n", .{webhook_url});
     std.debug.print("  Payload: {s}\n", .{json_contents.written()});
 
     const uri = try std.Uri.parse(webhook_url);
