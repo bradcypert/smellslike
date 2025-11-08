@@ -138,7 +138,11 @@ fn processFeed(allocator: std.mem.Allocator, webhook: []const u8, url: []const u
                 if (dry_run) {
                     std.debug.print("  [DRY RUN] Would post: {s}\n", .{title});
                 } else {
-                    try postToDiscord(allocator, webhook, title, item.url, item.summary);
+                    postToDiscord(allocator, webhook, title, item.url, item.summary) catch |err| {
+                        std.debug.print("  Failed to post to Discord: {}\n", .{err});
+                        std.debug.print("  Continuing with next item...\n", .{});
+                        continue;
+                    };
                     std.debug.print("  Posted: {s}\n", .{title});
                 }
                 try state.markAsPosted(item_id);
@@ -156,31 +160,28 @@ fn fetchUrl(allocator: std.mem.Allocator, url: []const u8) ![]u8 {
 
     const uri = try std.Uri.parse(url);
 
-    var result_body = std.Io.Writer.Allocating.init(allocator);
-    defer result_body.deinit();
+    var allocating = std.Io.Writer.Allocating.init(allocator);
+    defer allocating.deinit();
 
     const result = try client.fetch(.{
         .method = .GET,
         .location = .{ .uri = uri },
-        .response_writer = &result_body.writer,
+        .response_writer = &allocating.writer,
     });
 
     if (result.status != .ok) {
         return error.HttpError;
     }
 
-    return try result_body.toOwnedSlice();
+    return try allocating.toOwnedSlice();
 }
 
 fn postToDiscord(allocator: std.mem.Allocator, webhook_url: []const u8, title: []const u8, url: ?[]const u8, summary: ?[]const u8) !void {
-    var client = std.http.Client{ .allocator = allocator };
-    defer client.deinit();
-
     var content: std.ArrayList(u8) = .empty;
     defer content.deinit(allocator);
 
     const writer = content.writer(allocator);
-    try writer.print("**{s}**\n", .{title});
+    try writer.print("\n**{s}**\n", .{title});
     if (url) |u| {
         try writer.print("{s}\n", .{u});
     }
@@ -189,24 +190,62 @@ fn postToDiscord(allocator: std.mem.Allocator, webhook_url: []const u8, title: [
         try writer.print("{s}\n", .{truncated});
     }
 
-    const json_payload = try std.fmt.allocPrint(allocator,
-        \\{{"content": "{s}"}}
-    , .{content.items});
-    defer allocator.free(json_payload);
+    const Payload = struct {
+        content: []const u8,
+    };
+
+    const payload = Payload{ .content = content.items };
+
+    var json_contents = std.Io.Writer.Allocating.init(allocator);
+    defer json_contents.deinit();
+
+    try std.json.Stringify.value(payload, .{}, &json_contents.writer);
+
+    std.debug.print("  Webhook URL: {s}\n", .{webhook_url});
+    std.debug.print("  Payload: {s}\n", .{json_contents.written()});
 
     const uri = try std.Uri.parse(webhook_url);
 
-    const result = try client.fetch(.{
-        .method = .POST,
-        .location = .{ .uri = uri },
-        .payload = json_payload,
-        .extra_headers = &.{
-            .{ .name = "Content-Type", .value = "application/json" },
-        },
-    });
+    const max_retries = 3;
+    var retry: u32 = 0;
+    while (retry < max_retries) : (retry += 1) {
+        var client = std.http.Client{ .allocator = allocator };
+        defer client.deinit();
 
-    if (result.status != .ok and result.status != .no_content) {
-        std.debug.print("  Discord webhook failed with status: {}\n", .{result.status});
+        var allocating = std.Io.Writer.Allocating.init(allocator);
+        defer allocating.deinit();
+
+        const result = client.fetch(.{
+            .method = .POST,
+            .location = .{ .uri = uri },
+            .payload = json_contents.written(),
+            .keep_alive = false,
+            .response_writer = &allocating.writer,
+            .extra_headers = &.{
+                .{ .name = "Content-Type", .value = "application/json" },
+            },
+        }) catch |err| {
+            std.debug.print("  Discord request failed (attempt {}/{}): {}\n", .{ retry + 1, max_retries, err });
+            if (retry + 1 < max_retries) {
+                std.Thread.sleep(std.time.ns_per_s * (@as(u64, 1) << @intCast(retry)));
+                continue;
+            }
+            return err;
+        };
+
+        if (result.status == .ok or result.status == .no_content) {
+            return;
+        } else if (result.status == .too_many_requests) {
+            std.debug.print("  Rate limited by Discord\n", .{});
+            if (retry + 1 < max_retries) {
+                std.Thread.sleep(std.time.ns_per_s * 5);
+                continue;
+            }
+            return error.RateLimited;
+        } else {
+            std.debug.print("  Discord webhook failed with status: {}\n", .{result.status});
+            return error.WebhookFailed;
+        }
     }
 }
 

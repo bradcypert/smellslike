@@ -33,8 +33,8 @@
     // internet connectivity.
     .dependencies = .{
         .updog = .{
-            .url = "git+https://www.github.com/bradcypert/updog/?ref=HEAD#1403c4da09fef665deb5779176d4d9c5ce2a1984",
-            .hash = "updog-0.0.0-Lro7sht2AQCtTacj0zCjjmg4yJ9_8Ub9M9OaobK-bnAH",
+            .url = "git+https://www.github.com/bradcypert/updog/?ref=HEAD#d675ea070720b626fa5183e3259bd923cfcc5be1",
+            .hash = "updog-0.0.0-Lro7sht2AQC0RmeQE7IxiA-ahBCgCF6_xW3Bh0l2bBwh",
         },
     },
     .paths = .{
