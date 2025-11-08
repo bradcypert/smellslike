@@ -1,0 +1,2 @@
+https://ziglang.org/news/index.xml
+// https://www.openmymind.net/atom.xml

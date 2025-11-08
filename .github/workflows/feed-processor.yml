@@ -1,0 +1,46 @@
+name: Process Feeds
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  process-feeds:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          zig-version: 0.15.1
+
+      - name: Build
+        run: zig build
+
+      - name: Run feed processor
+        env:
+          DISCORD_BLOG_WEBHOOK: ${{ secrets.DISCORD_BLOG_WEBHOOK }}
+          DISCORD_GO_NEWS_WEBHOOK: ${{ secrets.DISCORD_GO_NEWS_WEBHOOK }}
+          DISCORD_ZIG_NEWS_WEBHOOK: ${{ secrets.DISCORD_ZIG_NEWS_WEBHOOK }}
+          DISCORD_YT_WEBHOOK: ${{ secrets.DISCORD_YT_WEBHOOK }}
+        run: ./zig-out/bin/smellslike
+
+      - name: Commit state file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add state.json
+          git diff --staged --quiet || git commit -m "Update feed state [skip ci]"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
