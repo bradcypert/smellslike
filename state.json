@@ -1,12 +1,12 @@
 {
-  "last_run_timestamp": 1764136892,
+  "last_run_timestamp": 1764158494,
   "posted_items": [
     {
       "id": "https://tigerbeetle.com/blog/2025-11-22-mathematics-of-consensus",
       "posted_at": 1763834476
     },
     {
-      "id": "yt:video:Qpdls081vHA",
+      "id": "yt:video:2-diY3kULzE",
       "posted_at": 1764136887
     },
     {
@@ -14,8 +14,8 @@
       "posted_at": 1764136889
     },
     {
-      "id": "yt:video:ZpN_q1zBPO8",
-      "posted_at": 1764136890
+      "id": "yt:video:6ausp1qPWfk",
+      "posted_at": 1762732920
     },
     {
       "id": "yt:video:V5B5oPtupS4",
@@ -66,20 +66,20 @@
       "posted_at": 1762628253
     },
     {
+      "id": "yt:video:Qpdls081vHA",
+      "posted_at": 1764136887
+    },
+    {
+      "id": "yt:video:ZpN_q1zBPO8",
+      "posted_at": 1764136890
+    },
+    {
       "id": "https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule",
       "posted_at": 1762643439
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/16years",
       "posted_at": 1763164910
-    },
-    {
-      "id": "yt:video:2-diY3kULzE",
-      "posted_at": 1764136887
-    },
-    {
-      "id": "yt:video:6ausp1qPWfk",
-      "posted_at": 1762732920
     }
   ]
 }
