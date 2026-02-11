@@ -1,9 +1,9 @@
 {
-  "last_run_timestamp": 1770790722,
+  "last_run_timestamp": 1770811736,
   "posted_items": [
     {
-      "id": "https://tigerbeetle.com/blog/2026-01-14-bitemporality",
-      "posted_at": 1768370490
+      "id": "yt:video:4RlS6NnitYs",
+      "posted_at": 1768629678
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.26",
@@ -14,16 +14,16 @@
       "posted_at": 1769342474
     },
     {
+      "id": "yt:video:kFVdXaStPHM",
+      "posted_at": 1770595462
+    },
+    {
       "id": "yt:video:wN3WCaAhFFM",
       "posted_at": 1769277680
     },
     {
       "id": "https://www.bradcypert.com/interfaces-in-zig/",
       "posted_at": 1770013010
-    },
-    {
-      "id": "yt:video:kFVdXaStPHM",
-      "posted_at": 1770595462
     },
     {
       "id": "yt:video:8Fm8z4uHJJg",
@@ -46,8 +46,8 @@
       "posted_at": 1768737673
     },
     {
-      "id": "yt:video:4RlS6NnitYs",
-      "posted_at": 1768629678
+      "id": "https://tigerbeetle.com/blog/2026-01-14-bitemporality",
+      "posted_at": 1768370490
     }
   ]
 }
