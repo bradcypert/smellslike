@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1771308914,
+  "last_run_timestamp": 1771329944,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.26",
@@ -18,12 +18,12 @@
       "posted_at": 1770595462
     },
     {
-      "id": "yt:video:wN3WCaAhFFM",
-      "posted_at": 1769277680
-    },
-    {
       "id": "yt:video:8Fm8z4uHJJg",
       "posted_at": 1770055684
+    },
+    {
+      "id": "yt:video:wN3WCaAhFFM",
+      "posted_at": 1769277680
     },
     {
       "id": "yt:video:-qkM3LqnUlQ",
@@ -32,10 +32,6 @@
     {
       "id": "yt:video:cKKqUW7IKtg",
       "posted_at": 1770638906
-    },
-    {
-      "id": "yt:video:Xi59SQuIHO4",
-      "posted_at": 1768737673
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/survey2025",
