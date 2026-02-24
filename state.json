@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1771913807,
+  "last_run_timestamp": 1771934835,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/gofix",
@@ -8,10 +8,6 @@
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.26",
       "posted_at": 1770768476
-    },
-    {
-      "id": "yt:video:ozDyg4Zfk0I",
-      "posted_at": 1769342474
     },
     {
       "id": "https://www.bradcypert.com/interfaces-in-zig/",
