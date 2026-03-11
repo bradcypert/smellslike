@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1773187327,
+  "last_run_timestamp": 1773209426,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/gofix",
@@ -12,10 +12,6 @@
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.26",
       "posted_at": 1770768476
-    },
-    {
-      "id": "yt:video:kFVdXaStPHM",
-      "posted_at": 1770595462
     },
     {
       "id": "yt:video:qQBE_XD26fM",
