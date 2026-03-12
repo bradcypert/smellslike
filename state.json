@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1773230673,
+  "last_run_timestamp": 1773273777,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/gofix",
@@ -8,6 +8,10 @@
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/allocation-optimizations",
       "posted_at": 1772215596
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/inliner",
+      "posted_at": 1773273774
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.26",
@@ -20,10 +24,6 @@
     {
       "id": "https://tigerbeetle.com/blog/2026-02-16-index-count-offset-size",
       "posted_at": 1771352004
-    },
-    {
-      "id": "yt:video:cKKqUW7IKtg",
-      "posted_at": 1770638906
     },
     {
       "id": "yt:video:a_VKMhYnyVc",
