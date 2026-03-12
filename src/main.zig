@@ -184,12 +184,7 @@ fn postToDiscord(allocator: std.mem.Allocator, webhook_url: []const u8, title: [
     try writer.print("New Post:\n**{s}**\n", .{title});
     if (summary) |s| {
         const truncated = if (s.len > 500) s[0..500] else s;
-        // TODO: This needs to support more HTML entities
-        const output_Size = std.mem.replacementSize(u8, truncated, "&#39;", "'");
-        const output_buffer = try allocator.alloc(u8, output_Size);
-        defer allocator.free(output_buffer);
-        _ = std.mem.replace(u8, truncated, "&#39;", "'", output_buffer);
-        try writer.print("\n{s}\n", .{output_buffer});
+        try writer.print("\n{s}\n", .{truncated});
     }
     if (url) |u| {
         try writer.print("\nRead more at: {s}\n", .{u});
