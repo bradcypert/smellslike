@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1773619476,
+  "last_run_timestamp": 1773642306,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/gofix",
@@ -10,8 +10,8 @@
       "posted_at": 1772215596
     },
     {
-      "id": "yt:video:dnE18adJxT8",
-      "posted_at": 1771265230
+      "id": "tag:blog.golang.org,2013:blog.golang.org/inliner",
+      "posted_at": 1773273774
     },
     {
       "id": "yt:video:qQBE_XD26fM",
@@ -26,8 +26,8 @@
       "posted_at": 1773057840
     },
     {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/inliner",
-      "posted_at": 1773273774
+      "id": "yt:video:dnE18adJxT8",
+      "posted_at": 1771265230
     }
   ]
 }
