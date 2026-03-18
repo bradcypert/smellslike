@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1773835750,
+  "last_run_timestamp": 1773857698,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/gofix",
@@ -10,14 +10,6 @@
       "posted_at": 1772215596
     },
     {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/inliner",
-      "posted_at": 1773273774
-    },
-    {
-      "id": "yt:video:qQBE_XD26fM",
-      "posted_at": 1771761675
-    },
-    {
       "id": "https://tigerbeetle.com/blog/2026-02-16-index-count-offset-size",
       "posted_at": 1771352004
     },
@@ -26,8 +18,12 @@
       "posted_at": 1773057840
     },
     {
-      "id": "yt:video:dnE18adJxT8",
-      "posted_at": 1771265230
+      "id": "yt:video:qQBE_XD26fM",
+      "posted_at": 1771761675
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/inliner",
+      "posted_at": 1773273774
     }
   ]
 }
