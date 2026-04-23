@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1776903170,
+  "last_run_timestamp": 1776925883,
   "posted_items": [
     {
       "id": "yt:video:29bq_m6N5kc",
@@ -14,12 +14,12 @@
       "posted_at": 1776168796
     },
     {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/type-construction-and-cycle-detection",
-      "posted_at": 1774397090
-    },
-    {
       "id": "yt:video:XA_O9fwxVcs",
       "posted_at": 1775067137
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/type-construction-and-cycle-detection",
+      "posted_at": 1774397090
     },
     {
       "id": "yt:video:43QwGd38m_s",
