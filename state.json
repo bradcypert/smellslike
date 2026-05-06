@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1777983413,
+  "last_run_timestamp": 1778026452,
   "posted_items": [
     {
       "id": "https://kristoff.it/blog/contributor-poker-and-ai/",
@@ -40,6 +40,10 @@
     {
       "id": "https://ziglang.org/news/0.16.0-released/",
       "posted_at": 1776190729
+    },
+    {
+      "id": "https://kristoff.it/blog/scripty/",
+      "posted_at": 1778026451
     }
   ]
 }
