@@ -1,9 +1,13 @@
 {
-  "last_run_timestamp": 1781117183,
+  "last_run_timestamp": 1781183162,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/pkgsite-api",
       "posted_at": 1779409164
+    },
+    {
+      "id": "https://www.bradcypert.com/retro-building-an-smtp-server-in-gleam/",
+      "posted_at": 1781183159
     },
     {
       "id": "yt:video:I4BZMR3jSzU",
