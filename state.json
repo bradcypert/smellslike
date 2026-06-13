@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1781353681,
+  "last_run_timestamp": 1781374989,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/pkgsite-api",
@@ -16,10 +16,6 @@
     {
       "id": "https://kristoff.it/blog/llms-at-zig-days/",
       "posted_at": 1779993973
-    },
-    {
-      "id": "yt:video:_p23HHbxOk8",
-      "posted_at": 1778761731
     },
     {
       "id": "https://kristoff.it/blog/fix-your-asserts/",
