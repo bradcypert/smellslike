@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1781636830,
+  "last_run_timestamp": 1781655930,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/pkgsite-api",
@@ -28,6 +28,10 @@
     {
       "id": "https://kristoff.it/blog/north-star/",
       "posted_at": 1780533027
+    },
+    {
+      "id": "https://ziglang.org/news/welcoming-new-team-members/",
+      "posted_at": 1781655928
     },
     {
       "id": "yt:video:ux7TMA-uQzk",
