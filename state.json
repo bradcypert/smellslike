@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1782584368,
+  "last_run_timestamp": 1782605957,
   "posted_items": [
     {
       "id": "https://www.bradcypert.com/retro-building-an-smtp-server-in-gleam/",
@@ -10,12 +10,12 @@
       "posted_at": 1781396551
     },
     {
-      "id": "https://kristoff.it/blog/llms-at-zig-days/",
-      "posted_at": 1779993973
-    },
-    {
       "id": "https://kristoff.it/blog/fix-your-asserts/",
       "posted_at": 1780230083
+    },
+    {
+      "id": "yt:video:w9bl0Tpp9zA",
+      "posted_at": 1782001368
     },
     {
       "id": "https://kristoff.it/blog/north-star/",
@@ -24,10 +24,6 @@
     {
       "id": "https://ziglang.org/news/welcoming-new-team-members/",
       "posted_at": 1781655928
-    },
-    {
-      "id": "yt:video:w9bl0Tpp9zA",
-      "posted_at": 1782001368
     },
     {
       "id": "yt:video:umxwpZdT9OU",
