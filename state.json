@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1785610002,
+  "last_run_timestamp": 1785633658,
   "posted_items": [
     {
       "id": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
@@ -20,6 +20,10 @@
     {
       "id": "yt:video:QlaHs00ydGo",
       "posted_at": 1785091734
+    },
+    {
+      "id": "https://andrewkelley.me/post/dont-take-black-pill.html",
+      "posted_at": 1785633656
     }
   ]
 }
