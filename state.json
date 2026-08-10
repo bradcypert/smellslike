@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1786278010,
+  "last_run_timestamp": 1786322525,
   "posted_items": [
     {
       "id": "yt:video:ccWGkrKL6AE",
@@ -16,6 +16,10 @@
     {
       "id": "yt:video:QlaHs00ydGo",
       "posted_at": 1785091734
+    },
+    {
+      "id": "https://kristoff.it/blog/source-code-availability/",
+      "posted_at": 1786322522
     }
   ]
 }
