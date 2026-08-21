@@ -1,13 +1,13 @@
 {
-  "last_run_timestamp": 1787293262,
+  "last_run_timestamp": 1787314700,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.27",
       "posted_at": 1787163242
     },
     {
-      "id": "yt:video:ftMJNx6hDrE",
-      "posted_at": 1786646572
+      "id": "https://kristoff.it/blog/source-code-availability/",
+      "posted_at": 1786322522
     },
     {
       "id": "https://andrewkelley.me/post/dont-take-black-pill.html",
@@ -18,12 +18,12 @@
       "posted_at": 1787249872
     },
     {
-      "id": "yt:video:QlaHs00ydGo",
-      "posted_at": 1785091734
+      "id": "yt:video:ftMJNx6hDrE",
+      "posted_at": 1786646572
     },
     {
-      "id": "https://kristoff.it/blog/source-code-availability/",
-      "posted_at": 1786322522
+      "id": "yt:video:QlaHs00ydGo",
+      "posted_at": 1785091734
     }
   ]
 }
