@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1789523474,
+  "last_run_timestamp": 1789573035,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/go1.27",
@@ -20,6 +20,10 @@
     {
       "id": "https://tigerbeetle.com/blog/2026-08-20-protocol-aware-dst",
       "posted_at": 1787249872
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
+      "posted_at": 1789573030
     }
   ]
 }
