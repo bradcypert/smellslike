@@ -1,9 +1,13 @@
 {
-  "last_run_timestamp": 1789744524,
+  "last_run_timestamp": 1789761729,
   "posted_items": [
     {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/go1.27",
-      "posted_at": 1787163242
+      "id": "tag:blog.golang.org,2013:blog.golang.org/generic-methods",
+      "posted_at": 1787807623
+    },
+    {
+      "id": "https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle",
+      "posted_at": 1789677424
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/goroutine-leak-profiles",
@@ -14,20 +18,12 @@
       "posted_at": 1788898923
     },
     {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
-      "posted_at": 1789573030
-    },
-    {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/generic-methods",
-      "posted_at": 1787807623
-    },
-    {
-      "id": "https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle",
-      "posted_at": 1789677424
-    },
-    {
       "id": "https://tigerbeetle.com/blog/2026-08-20-protocol-aware-dst",
       "posted_at": 1787249872
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
+      "posted_at": 1789573030
     }
   ]
 }
