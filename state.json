@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1789829593,
+  "last_run_timestamp": 1789868979,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/generic-methods",
@@ -16,10 +16,6 @@
     {
       "id": "yt:video:sX5w4sz76C8",
       "posted_at": 1788898923
-    },
-    {
-      "id": "https://tigerbeetle.com/blog/2026-08-20-protocol-aware-dst",
-      "posted_at": 1787249872
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
