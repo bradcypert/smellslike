@@ -1,6 +1,14 @@
 {
-  "last_run_timestamp": 1790369237,
+  "last_run_timestamp": 1790418097,
   "posted_items": [
+    {
+      "id": "https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle",
+      "posted_at": 1789677424
+    },
+    {
+      "id": "https://kristoff.it/blog/the-zig-journey/",
+      "posted_at": 1790177841
+    },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/goroutine-leak-profiles",
       "posted_at": 1788379817
@@ -16,18 +24,6 @@
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/size-specialized-allocations",
       "posted_at": 1789573030
-    },
-    {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/generic-methods",
-      "posted_at": 1787807623
-    },
-    {
-      "id": "https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle",
-      "posted_at": 1789677424
-    },
-    {
-      "id": "https://kristoff.it/blog/the-zig-journey/",
-      "posted_at": 1790177841
     }
   ]
 }
