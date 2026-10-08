@@ -1,10 +1,6 @@
 {
-  "last_run_timestamp": 1791461886,
+  "last_run_timestamp": 1791498695,
   "posted_items": [
-    {
-      "id": "yt:video:sX5w4sz76C8",
-      "posted_at": 1788898923
-    },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/simd-experiment",
       "posted_at": 1790282996
