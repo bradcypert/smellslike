@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1792579212,
+  "last_run_timestamp": 1792598992,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/http-connection-reuse",
@@ -16,6 +16,10 @@
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/archsimd",
       "posted_at": 1790976507
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/survey2026-announce",
+      "posted_at": 1792598991
     },
     {
       "id": "https://kristoff.it/blog/the-zig-journey/",
