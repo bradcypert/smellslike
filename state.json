@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1792871569,
+  "last_run_timestamp": 1792893148,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/http-connection-reuse",
@@ -10,16 +10,12 @@
       "posted_at": 1792059892
     },
     {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/simd-experiment",
-      "posted_at": 1790282996
+      "id": "yt:video:4dDSXEpbeYI",
+      "posted_at": 1792751694
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/archsimd",
       "posted_at": 1790976507
-    },
-    {
-      "id": "yt:video:4dDSXEpbeYI",
-      "posted_at": 1792751694
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/survey2026-announce",
