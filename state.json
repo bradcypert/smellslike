@@ -1,13 +1,9 @@
 {
-  "last_run_timestamp": 1793155281,
+  "last_run_timestamp": 1793187747,
   "posted_items": [
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/http-connection-reuse",
       "posted_at": 1792011659
-    },
-    {
-      "id": "yt:video:W0F4TV9sCEw",
-      "posted_at": 1792059892
     },
     {
       "id": "yt:video:4dDSXEpbeYI",
@@ -18,16 +14,32 @@
       "posted_at": 1790976507
     },
     {
+      "id": "yt:video:yWZxuZoH3j0",
+      "posted_at": 1791145910
+    },
+    {
+      "id": "tag:blog.golang.org,2013:blog.golang.org/emudhra-incident",
+      "posted_at": 1793068359
+    },
+    {
+      "id": "yt:video:RUusxYobi1Q",
+      "posted_at": 1792853784
+    },
+    {
+      "id": "yt:video:0juTSL8Sn6w",
+      "posted_at": 1793187744
+    },
+    {
+      "id": "yt:video:W0F4TV9sCEw",
+      "posted_at": 1792059892
+    },
+    {
       "id": "tag:blog.golang.org,2013:blog.golang.org/survey2026-announce",
       "posted_at": 1792598991
     },
     {
       "id": "https://ziglang.org/news/0.17.0-released/",
       "posted_at": 1790976502
-    },
-    {
-      "id": "yt:video:yWZxuZoH3j0",
-      "posted_at": 1791145910
     },
     {
       "id": "yt:video:W_InKdULS7c",
@@ -40,14 +52,6 @@
     {
       "id": "yt:video:Q4-lsOG1e-s",
       "posted_at": 1792145535
-    },
-    {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/emudhra-incident",
-      "posted_at": 1793068359
-    },
-    {
-      "id": "yt:video:RUusxYobi1Q",
-      "posted_at": 1792853784
     }
   ]
 }
