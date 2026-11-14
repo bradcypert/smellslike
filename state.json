@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1794627734,
+  "last_run_timestamp": 1794659653,
   "posted_items": [
     {
       "id": "yt:video:0juTSL8Sn6w",
@@ -8,10 +8,6 @@
     {
       "id": "https://ziglang.org/news/0.17.1-released/",
       "posted_at": 1793745407
-    },
-    {
-      "id": "yt:video:W0F4TV9sCEw",
-      "posted_at": 1792059892
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/jsonv2",
