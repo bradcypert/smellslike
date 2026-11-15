@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": 1794747592,
+  "last_run_timestamp": 1794780520,
   "posted_items": [
     {
       "id": "yt:video:0juTSL8Sn6w",
@@ -24,10 +24,6 @@
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/survey2026-announce",
       "posted_at": 1792598991
-    },
-    {
-      "id": "tag:blog.golang.org,2013:blog.golang.org/interactive-refactoring",
-      "posted_at": 1792181299
     },
     {
       "id": "tag:blog.golang.org,2013:blog.golang.org/17years",
